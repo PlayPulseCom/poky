@@ -26,8 +26,8 @@ QEMUVERSION ?= "6.0%"
 GOVERSION ?= "1.16%"
 # This can not use wildcards like 8.0.% since it is also used in mesa to denote
 # llvm version being used, so always bump it with llvm recipe version bump
-LLVMVERSION ?= "12.0.1"
-RUSTVERSION ?= "1.58%"
+LLVMVERSION ?= "13.0.1"
+RUSTVERSION ?= "1.59%"
 
 PREFERRED_VERSION_gcc ?= "${GCCVERSION}"
 PREFERRED_VERSION_gcc-cross-${TARGET_ARCH} ?= "${GCCVERSION}"
